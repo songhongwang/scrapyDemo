@@ -11,7 +11,7 @@ learning scrapy spide douban.com
 . settings.py 
 . ROBOTSTXT_OBEY = False
 
-## 添加403 代理 (栗子)[https://www.cnblogs.com/cnkai/p/7401343.html]
+## 添加403 代理 [栗子](https://www.cnblogs.com/cnkai/p/7401343.html)
   1.settings.py 添加代理
   MY_USER_AGENT = [
     "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
