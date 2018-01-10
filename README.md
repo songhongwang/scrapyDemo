@@ -89,5 +89,7 @@ learning scrapy spide douban.com
   scrapy crawl movie250
   
 
-
+## 导入数据库
+  1. 爬取完成后，创建mysql数据库douban
+  2. 在mysql目录中执行python insert_movie_json_into_mysql.py 导入到mysql数据库
 
