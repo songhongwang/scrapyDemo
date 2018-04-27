@@ -15,3 +15,13 @@ class DoubanItem(scrapy.Item):
     star = scrapy.Field()
     rate = scrapy.Field()
     quote = scrapy.Field()
+
+
+class Poem(scrapy.Item):
+    type = scrapy.Field()
+    name = scrapy.Field()
+    dynasty = scrapy.Field()
+    author = scrapy.Field()
+    content = scrapy.Field()
+    translation = scrapy.Field()
+    
